@@ -187,14 +187,23 @@ img, audio, video {
 
 /* ===== BASE STYLES ===== */
 html{
+  background-color: #d9d1c5
 
 }
 
 body{
 
+  border-style: double;
+}
+h1 {
+font-family: 'Bellefair', serif;
+}
+h2 {
+font-family: 'Bellefair', serif;
 }
 
 p{
+  font-family: 'Dosis', sans-serif;
 
 }
 
@@ -207,5 +216,10 @@ input[type=FiratName]{
 }
 
 input[type=LastName]{
+
+}
+
+input[type=checkbox]{
+  margin-bottom: 15px;
   
 }
