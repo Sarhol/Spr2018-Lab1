@@ -198,38 +198,51 @@ body{
 h1 {
 font-family: 'Bellefair', serif;
 color: #5a9258
-font-size: 16px;
+font-size: 25px;
 padding: 5px;
+text-align: center;
 }
 h2 {
 font-family: 'Bellefair', serif;
 color: black;
 font-weight: bold;
-font-size: 20px;
+font-size: 39px;
 padding: 3px;
+text-align: center;
 }
 
 p{
   font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 20px;
 
 }
-input {
+
+ input[type=text], input[type=password] {
   font-family: 'Dosis', sans-serif;
-}
-
-input[type=email]{
-
-}
-
-input[type=FiratName]{
-
-}
-
-input[type=LastName]{
-
-}
-
-input[type=checkbox]{
-  margin-bottom: 15px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
   
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
 }
