@@ -187,7 +187,7 @@ img, audio, video {
 
 /* ===== BASE STYLES ===== */
 html{
-  background-color: #d9d1c5
+  background-color: #E0dfe5
 
 }
 
@@ -197,14 +197,24 @@ body{
 }
 h1 {
 font-family: 'Bellefair', serif;
+color: #5a9258
+font-size: 16px;
+padding: 5px;
 }
 h2 {
 font-family: 'Bellefair', serif;
+color: black;
+font-weight: bold;
+font-size: 20px;
+padding: 3px;
 }
 
 p{
   font-family: 'Dosis', sans-serif;
 
+}
+input {
+  font-family: 'Dosis', sans-serif;
 }
 
 input[type=email]{
