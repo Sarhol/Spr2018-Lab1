@@ -84,10 +84,6 @@ img, audio, video {
 display : block;
 max-width : 100%;
 }
-html {
-background-image : url(/images/Coffee.jpg);
-background-color : #d9d5c1;
-}
 body {
 border-style : double;
 }
@@ -132,4 +128,23 @@ opacity : 0.89999997615814208984375;
 }
 .signupbtn {
 width : 50%;
+}
+@media screen and (min-width:480px) {
+form {
+padding-top : 3em;
+padding-left : 1em;
+width : 80%;
+}
+h1 {
+font-size : 50px;
+}
+h2 {
+font-size : 70px;
+}
+button {
+width : 100%;
+}
+html {
+font-size : 35px;
+}
 }
