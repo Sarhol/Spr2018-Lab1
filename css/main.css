@@ -223,7 +223,7 @@ p{
   font-family: 'Dosis', sans-serif;
     width: 100%;
     padding: 15px;
-    margin: 5px 0 22px 0;
+    margin: 5px 0 22px 15px;
     display: inline-block;
     border: none;
     background-color: lightyellow;
@@ -239,8 +239,9 @@ button {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+    
 }
  .signupbtn {
-  float: left;
+  
   width: 50%;
 }
