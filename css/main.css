@@ -187,7 +187,8 @@ img, audio, video {
 
 /* ===== BASE STYLES ===== */
 html{
-  background-color: #E0dfe5
+  background-image: url(/images/Coffee)
+  background-color:#d9d5c1;
 
 }
 
@@ -226,6 +227,9 @@ p{
     display: inline-block;
     border: none;
   
+}
+input[type = checkbox]{
+  padding-bottom: 15px;
 }
 
 button {
