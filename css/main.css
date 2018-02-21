@@ -226,10 +226,8 @@ p{
     margin: 5px 0 22px 0;
     display: inline-block;
     border: none;
+    background-color: lightyellow;
   
-}
-input[type = checkbox]{
-  padding-bottom: 15px;
 }
 
 button {
@@ -242,11 +240,7 @@ button {
     width: 100%;
     opacity: 0.9;
 }
-.cancelbtn, .signupbtn {
+ .signupbtn {
   float: left;
   width: 50%;
-}
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
 }
