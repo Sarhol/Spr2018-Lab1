@@ -84,40 +84,45 @@ img, audio, video {
    max-width : 100%;
 }
 body {
-   border-style : double;
+   background-image: url("/images/microphone");
+
 }
 h1 {
    font-family : 'Bellefair', serif;
    color : #5a9258;
    font-size : 25px;
-   padding : 5px;
-   vertical-align: text-top;
-   text-align : center;
+   
+   margin: 5px;
+   text-align : auto;
+   vertical-align: text-bottom;
 }
 h2 {
    font-family : 'Bellefair', serif;
    color : black;
    font-weight : bold;
    font-size : 39px;
-   padding : 3px;
-   vertical-align: text-top;
-   text-align : center;
+   
+   text-align : auto;
+   vertical-align: text-bottom;
 }
 p {
    font-family : 'Dosis', sans-serif;
-   text-align : center;
+   text-align : auto;
    font-size : 20px;
    vertical-align: text-top;
+   padding-bottom: 1em;
+   
 }
 input[type="text"], input[type="password"], input[type="email"] {
    font-family : 'Dosis', sans-serif;
    width : 50%;
-   padding : 15px;
-   margin : 5px 0 22px 15px;
-   vertical-align: text-bottom;
-   display : inline-block;
-   border : none;
+   padding : .5em;
+   margin : .5em .5em 1em 1em;
+   display :  block;
+   border : double;
    background-color : lightyellow;
+   vertical-align: text-top;
+
 }
 button {
    background-color : #4CAF50;
@@ -134,7 +139,7 @@ button {
 }
 @media screen and (min-width:480px) {
 form {
-   padding-top : 3em;
+   padding-top : 1em;
    padding-left : 1em;
    width : 80%;
 }
