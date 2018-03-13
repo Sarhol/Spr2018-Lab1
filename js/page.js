@@ -1,11 +1,44 @@
 <script>
-// Get the modal
-var modal = document.getElementById('id01');
+function ValidateForm()
+{
+	var Fname = document.SignUp.FirstName;
+    var email = document.SignUp.email;
+    var Lname = document.SignUp.LastName;
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+if (FirstName.value == "")
+{
+    window.alert("Please enter your name.");
+    name.focus();
+    return false;
+}
+if (LastName.value == "")
+{
+    window.alert("Please enter your name.");
+    name.focus();
+    return false;
+}
+
+if (email.value == "")
+{
+    window.alert("Please enter a valid e-mail address.");
+    email.focus();
+    return false;
+}
+
+if (email.value.indexOf("@", 0) < 0)
+{
+    window.alert("Please enter a valid e-mail address.");
+    email.focus();
+    return false;
+}
+
+if (email.value.indexOf(".", 0) < 0)
+{
+    window.alert("Please enter a valid e-mail address.");
+    email.focus();
+    return false;
+}
+
+return true;
 }
 </script>
